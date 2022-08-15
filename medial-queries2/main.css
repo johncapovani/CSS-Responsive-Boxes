@@ -1,3 +1,63 @@
 body {
-  background: papayawhip;
+  background: blanchedalmond;
+  margin: 0;
+}
+
+* {
+  border: 1px solid teal;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.a {
+
+  height: 33.33vh;
+  width: 100%;
+  margin: 10px;
+  order: 1;
+
+}
+
+.b {
+
+  height: 33.33vh;
+  width: 72%;
+  margin: 10px;
+  order: 2;
+
+}
+
+.c {
+  height: 33.33vh;
+  width: 20%;
+  margin: 10px;
+  order: 4;
+}
+
+.d {
+  height: 33.33vh;
+  width: 20%;
+  margin: 10px;
+  order: 5;
+}
+
+.e {
+  height: 33.33vh;
+  width: 25%;
+  margin: 10px;
+  order: 6;
+}
+
+.f {
+  height: 66.66vh;
+  width: 25%;
+  margin: 10px;
+  order: 3;
+  flex: auto;
 }
